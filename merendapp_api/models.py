@@ -21,6 +21,7 @@ class Message:
         init=False, server_default=func.now()
     )
 
+
 @mapped_as_dataclass(table_registry)
 class Review:
     __tablename__ = 'reviews'
